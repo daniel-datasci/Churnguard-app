@@ -1,4 +1,5 @@
 import { BrowserRouter } from 'react-router-dom';
+import { Analytics } from '@vercel/analytics/react';
 import { CustomerProvider } from './context/CustomerContext';
 import { UIProvider, useUIContext } from './context/UIContext';
 import { Navbar } from './components/Navbar';
