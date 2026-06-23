@@ -57,6 +57,7 @@ export default function App() {
       <CustomerProvider>
         <UIProvider>
           <AppContent />
+          <Analytics />
         </UIProvider>
       </CustomerProvider>
     </BrowserRouter>
